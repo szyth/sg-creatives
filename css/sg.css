@@ -1,0 +1,13 @@
+
+
+.owl-carousel h4 {
+  position: absolute;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  color: #fff;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  margin-left: 30px;
+}

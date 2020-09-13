@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#1270ae" />
+  <meta name="theme-color" content="#1b5b86" />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>ScrapeGoat</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="css/materialize.min.css" />
+  <link rel="stylesheet" href="css/sg.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+  <section>
+    <ul id="slide-out" class="side-nav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="images/logo-final-black.png" />
+          </div>
+
+        </div>
+      </li>
+      <li>
+        <a href="index.html"><i class="material-icons">language</i>Home</a>
+      </li>
+      <li>
+        <a href="pricing.html"><i class="material-icons">cloud</i>Pricing</a>
+      </li>
+      <li><a href="team.html">Team</a></li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li><a class="subheader">Subheader</a></li>
+      <li>
+        <a class="waves-effect" href="contact.html">Contact Us!</a>
+      </li>
+    </ul>
+    <div class="navbar-fixed">
+      <nav class="transparent z-depth-0" id="mynav">
+        <div class="nav-wrapper">
+          <a href="#" id="a-center" data-activates="slide-out" class="brand-logo clip-img show-on-large">
+            <div>
+              <img href="./index.html" id="img-center" class="img-resize" src="images/logo-final-white.png" />
+            </div>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <div class="owl-carousel">
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="page-footer footer-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">ScrapeGoat CREATIVES&#8482;</h5>
+          <p class="grey-text text-lighten-4">
+            ScrapeGoat brings customer satisfaction and quality to small
+            businesses and medium enterprises while helping them to increase
+            their digital presence.
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="team.html">About Us</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="pricing.html">Pricing</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2020 Copyright
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="./js/sg.js"></script>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/materialize.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<style type="text/css">
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+</style>
+<script>
+  $("#a-center").sideNav({
+    menuWidth: 300, // Default is 300
+    closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    draggable: true
+  });
+  window.onload = function () //executes when the page finishes loading
+  {
+    setTimeout(function () {}, 000); //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+  };
+</script>
+
+</html>
