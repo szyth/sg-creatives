@@ -8,7 +8,7 @@ owl.owlCarousel({
   autoplayTimeout: 3500,
   responsive: {
     0: {
-      items: 1.5,
+      items: 1.3,
     },
     600: {
       items: 2,
@@ -17,7 +17,7 @@ owl.owlCarousel({
       items: 2.5,
     },
     1200: {
-      items: 3.1,
+      items: 3.2,
     },
   },
 });
