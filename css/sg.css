@@ -1,3 +1,13 @@
+* {
+  transition: all ease-in 250ms;
+}
+
+
+body {
+  font-family: 'Saira Extra Condensed', sans-serif;
+
+}
+
 /* NAVBAR */
 
 nav {
@@ -39,15 +49,14 @@ nav ul li a:hover {
   clip-path: polygon(7% 0%, 100% 0%, 92% 93%, 0 85%);
 }
 
-.clip-img :hover {
+.clip-img:hover {
   background-color: rgb(255, 198, 74);
-  transition: all ease-in 100ms;
 }
 
 /* NAVBAR - END */
 
 /* CAROUSEL */
-.owl-carousel h4 {
+.owl-one h4 {
   position: absolute;
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 3em;
@@ -60,3 +69,214 @@ nav ul li a:hover {
 }
 
 /* CAROUSEL - END*/
+
+/* WHAT WE DO */
+.solutions {
+  padding: 3em 5em;
+}
+
+.solutions .card-panel {
+  width: 100%;
+  margin: 1em auto;
+  border: #000000 solid 1px;
+  border-radius: 0;
+  -webkit-box-shadow: -10px 10px 0px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 0px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: -10px 10px 0px 3px rgba(0, 0, 0, 0.75);
+  transition: all ease-in 250ms;
+}
+
+.solutions .card-panel i {
+  font-size: 3em;
+  color: #383838;
+}
+
+.solutions .card-panel:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all ease-in 250ms;
+}
+
+
+.solutions img {
+  width: 30%;
+}
+
+
+/* WHAT WE DO - END */
+
+
+/* SOME OF OUR CLIENTS */
+#clients {
+
+  background-color: rgb(0, 0, 0);
+  color: #f5f5f5;
+}
+
+#clients h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+height: 70px;
+line-height: 80px;
+}
+
+.clients {
+  margin: 0;
+}
+
+.clients .brucre {
+  background-color: rgb(255, 153, 0);
+  color: rgb(0, 0, 0);
+}
+
+.clients .classicloset {
+  background-color: rgb(255, 0, 140);
+  color: rgb(250, 250, 250);
+}
+
+.clients .medogle {
+  background-color: rgb(14, 148, 1);
+  color: rgb(255, 255, 255);
+}
+
+.clients .fresholic {
+  background-color: rgb(24, 202, 0);
+  color: rgb(226, 226, 226);
+}
+
+.clients .ninetycafe {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 217, 0);
+}
+
+.clients .obb {
+  background-color: rgb(0, 107, 168);
+  color: antiquewhite;
+}
+
+.clients h1 {
+  font-size: 2em;
+  margin: 0;
+  height: 20vh;
+  line-height: 20vh;
+  color: rgb(0, 0, 0)
+}
+
+/* SOME OF OUR CLIENTS - END */
+
+/* WHY CHOOSE US */
+.why {
+  padding-top: 40px;
+  background-color: #f5f5f5;
+}
+
+.why .row {
+  margin-bottom: 0 !important;
+}
+
+.why .row p {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  font-size: medium;
+  padding: 1% 10%;
+}
+
+.why img {
+  width: 30%;
+}
+
+.whyEach {
+  padding: 3em !important;
+}
+
+@media only screen and (max-width: 601px) {
+  .whyEach {
+    padding: 2em 3em !important;
+  }
+}
+
+.whyEach img {}
+
+.whyEach img:hover {
+  transform: scale(1.15);
+}
+
+.whyEach h2 {
+  margin: 0;
+}
+
+.whyEach p {
+  font-family: 'Poppins', sans-serif;
+  font-size: medium !important;
+  padding: 2% !important;
+  margin: 0;
+}
+
+
+/* WHY CHOOSE US - END */
+
+.dividerContent1 {
+  height: auto;
+  background: #51e2c2;
+  overflow: hidden;
+  position: relative;
+}
+
+.dividerDiagonal1 {
+  width: 0;
+  height: 0;
+  border-top: 70px solid #f5f5f5;
+  border-left: 100vw solid transparent;
+}
+
+
+/* TESTIMONIAL */
+.testimonial {
+  background-color: #51e2c2;
+  padding-bottom: 5em;
+}
+
+.testimonial h3 {
+  margin-top: 0;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.testimonial .card-header {}
+
+.testimonial .card-header img {
+  border-radius: 10%;
+  float: left;
+
+  width: 20%;
+}
+
+.card-panel {
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.card-panel p {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 0;
+}
+
+.header-desc {
+  text-align: center;
+}
+
+.header-desc h4 {
+  margin-bottom: 0;
+}
+
+.header-desc h6 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+
+/* TESTIMONIAL - END */
+
+
+/* OUR WORKS */
+/* OUR WORKS - END */
