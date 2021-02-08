@@ -1,26 +1,7 @@
-/* SG COLOR SCHEME */
-/* #3cc194 */
-
-::-moz-selection {
-  /* Code for Firefox */
-  color: rgb(255, 255, 255);
-  background: rgb(0, 0, 0);
-}
-
-::selection {
-  color: rgb(255, 255, 255);
-  background: rgb(0, 0, 0);
-}
-
-
-
 * {
   transition: all ease-in 250ms;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   font-family: 'Saira Extra Condensed', sans-serif;
@@ -31,7 +12,6 @@ body {
 
 nav {
   position: relative;
-  padding: 0 4em;
   z-index: 999;
   background-color: rgb(0, 0, 0);
 }
@@ -76,22 +56,16 @@ nav ul li a:hover {
 /* NAVBAR - END */
 
 /* CAROUSEL */
-.owl-one a {
-  text-align: center;
-}
-
 .owl-one h4 {
   position: absolute;
-  width: 100%;
   font-family: 'Saira Extra Condensed', sans-serif;
   font-size: 3em;
   font-weight: 600;
   color: #fff;
-  background-color: rgb(12, 12, 12);
-  bottom: 0;
+  bottom: 10%;
   left: 0;
   right: 0;
-  margin: 0;
+  margin-left: 30px;
 }
 
 /* CAROUSEL - END*/
@@ -100,11 +74,10 @@ nav ul li a:hover {
 .solutions {
   padding: 3em 5em;
 }
-
 @media only screen and (max-width: 601px) {
   .solutions {
-    padding: 1em 2em;
-  }
+  padding: 1em 2em;
+}
 }
 
 .solutions .card-panel {
@@ -148,8 +121,8 @@ nav ul li a:hover {
 #clients h5 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  height: 70px;
-  line-height: 80px;
+height: 70px;
+line-height: 80px;
 }
 
 .clients {
@@ -312,89 +285,3 @@ nav ul li a:hover {
 
 /* OUR WORKS */
 /* OUR WORKS - END */
-
-
-/* SOLUTIONS MAIN  */
-#solutionsHero {
-  padding: 5%;
-  height: 100vh !important;
-  background-color: #3cc195;
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-}
-
-#solutionsHero h3 {
-  font-size: 3.8em;
-  font-family: 'Poppins', sans-serif;
-  /* margin-bottom: 1em; */
-}
-
-#solutionsHero p {
-  margin: 3em 0;
-
-}
-
-#solutionsHero .btn-large {
-  background-color: #ffffff;
-  color: #444;
-  border: solid 1px #444;
-}
-
-#solutionsHero .btn-large:hover {
-  background-color: transparent;
-  border: solid 1px white;
-  color: rgb(255, 255, 255);
-}
-
-
-#solutionsHero .typewriter {
-  /* color: #3cc195; */
-  color: rgb(253, 229, 90);
-  background: rgb(0, 0, 0);
-  font-size: 4em;
-}
-
-#solutionsMain {
-  padding: 0 2em;
-}
-#solutionsMain .row{
-  margin-bottom: 0 !important;
-}
-
-#solutionsMain h2.title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 3.5rem;
-  padding: 2em 0;
-  margin-top: 0;
-}
-
-#solutionsMain .translateRight {
-  transform: translate(40%, -10%);
-}
-
-#solutionsMain .translateLeft {
-  transform: translate(-40%, -10%);
-}
-
-#solutionsMain .title h3 {
-  font-family: 'Saira Extra Condensed', sans-serif;
-  font-weight: bold;
-  font-size: 5rem;
-}
-
-#solutionsMain .card {
-  border: solid 1px rgb(218, 218, 218);
-}
-
-#solutionsMain .card-content {
-  font-family: 'Poppins', sans-serif;
-  font-size: medium !important;
-  margin: 0;
-}
-
-#solutionsMain .card-title {
-  text-transform: uppercase;
-  color: rgb(7, 12, 29);
-}
-
-/* SOLUTIONS MAIN - END */
