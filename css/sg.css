@@ -351,14 +351,16 @@ nav ul li a:hover {
   /* color: #3cc195; */
   color: rgb(253, 229, 90);
   background: rgb(0, 0, 0);
-  font-size: 4em;
+  font-size: 3em;
 }
 
 #solutionsMain {
-  padding: 0 2em;
+  padding: 0 5em;
 }
-#solutionsMain .row{
+
+#solutionsMain .row {
   margin-bottom: 0 !important;
+  position: relative;
 }
 
 #solutionsMain h2.title {
@@ -369,11 +371,17 @@ nav ul li a:hover {
 }
 
 #solutionsMain .translateRight {
-  transform: translate(40%, -10%);
+  /* transform: translate(40%, -10%); */
+  position: absolute;
+  left: 9%;
+  top: -15%
 }
 
 #solutionsMain .translateLeft {
-  transform: translate(-40%, -10%);
+  /* transform: translate(-40%, -10%); */
+  position: absolute;
+  right: 9%;
+  top: -15%
 }
 
 #solutionsMain .title h3 {
@@ -384,6 +392,10 @@ nav ul li a:hover {
 
 #solutionsMain .card {
   border: solid 1px rgb(218, 218, 218);
+  box-shadow: 1px 1px 17px 0 rgb(0 0 0 / 41%);
+}
+#solutionsMain .card:hover {
+  box-shadow: none;
 }
 
 #solutionsMain .card-content {
