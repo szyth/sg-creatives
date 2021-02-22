@@ -463,7 +463,7 @@ footer li a {
 
 /* TEAM MAIN  */
 
-#teamHero {
+#aboutHero {
   padding: 5%;
   height: 100vh !important;
   background-color: #979e86;
@@ -471,29 +471,29 @@ footer li a {
   color: rgb(0, 0, 0);
 }
 
-#teamHero img {
+#aboutHero img {
   border-radius: 50%;
 }
 
-#teamHero p {
+#aboutHero p {
   margin: 2em 0;
 
 }
 
-#teamHero .btn-large {
+#aboutHero .btn-large {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   border: solid 1px rgb(0, 0, 0);
 }
 
-#teamHero .btn-large:hover {
+#aboutHero .btn-large:hover {
   background-color: transparent;
   border: solid 1px rgb(0, 0, 0);
   color: rgb(0, 0, 0);
 }
 
 
-#teamHero .typewriter {
+#aboutHero .typewriter {
   color: rgb(238, 238, 238);
   background-color: #000;
   font-weight: bold;
@@ -501,19 +501,19 @@ footer li a {
   line-height: 1;
 }
 
-#teamMain {
+#aboutMain {
   padding: 0 5em;
 
 }
 
-#teamMain h2.title {
+#aboutMain h2.title {
   font-family: 'Poppins', sans-serif;
   font-size: 3.5rem;
   padding: 0.5em 0;
   margin-top: 0;
 }
 
-#teamMain .teamContent {
+#aboutMain .aboutContent {
   font-family: 'Poppins', sans-serif;
   margin: 2em 0;
 
@@ -548,7 +548,7 @@ footer li a {
   left: 0;
   width: 100%;
   height: 35%;
-  background-color: #7004fd;
+  background-color: #f79a0e;
   z-index: -10;
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -591,23 +591,23 @@ footer li a {
   transition: all 0.1s linear;
 }
 
-#teamMain .card .card-content .card-title {
+#aboutMain .card .card-content .card-title {
   margin-bottom: 0;
 }
 
-#teamCard {
+#aboutCard {
   /* padding: 0 3rem; */
 }
 
-#teamCard .card {
+#aboutCard .card {
   margin: 30px
 }
 
-#teamCard img {
+#aboutCard img {
   transform: translate(-15px, -20px);
 }
 
-#teamCard .card-title {
+#aboutCard .card-title {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.9em;
@@ -615,48 +615,109 @@ footer li a {
 
 
 
-#teamCard p.designation {
+#aboutCard p.designation {
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-#teamCard .card-image.zia {
+#aboutCard .card-image.zia {
   background-color: crimson;
 }
 
-#teamCard p.designation.zia {
+#aboutCard p.designation.zia {
   color: crimson;
 }
 
-#teamCard .card-image.areeb {
+#aboutCard .card-image.areeb {
   background-color: #e2cd0e;
 }
 
-#teamCard p.designation.areeb {
+#aboutCard p.designation.areeb {
   color: #a89c2d;
 }
 
-#teamCard .card-image.shayan {
+#aboutCard .card-image.shayan {
   background-color: #22211d;
 }
 
-#teamCard p.designation.shayan {
+#aboutCard p.designation.shayan {
   color: #22211d;
 }
 
-#teamCard p.quote {
+#aboutCard p.quote {
   font-size: 1.3rem;
 }
 
-#teamCard .social-icon {
+#aboutCard .social-icon {
   margin-top: 10px;
 }
 
-#teamCard .social-icon i {
+#aboutCard .social-icon i {
   margin: 5px;
   font-size: 1.5rem;
   color: #444;
 }
 
 
-/* TEAM MAIN - END */
+/* ABOUT MAIN - END */
+
+/* CONTACT MAIN  */
+
+#contactHero {
+  padding: 5%;
+  height: 100vh !important;
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+#contactHero img {
+  border-radius: 50%;
+}
+
+#contactHero p {
+  margin: 2em 0;
+
+}
+
+#contactHero .btn-large {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#contactHero .btn-large:hover {
+  background-color: transparent;
+  border: solid 1px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+
+#contactHero .typewriter {
+  color: rgb(37, 37, 37);
+  background-color: rgb(241, 241, 241);
+  font-weight: bold;
+  font-size: 3em !important;
+  line-height: 1;
+}
+
+#contactMain {
+  /* padding: 0 5rem; */
+
+}
+
+#contactMain h2.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  padding: 0.5rem 5rem;
+  margin-top: 0;
+}
+
+#contactMain .contactContent {
+  font-family: 'Poppins', sans-serif;
+  padding: 0 5em;
+  margin: 2em 0;
+
+}
+
+/* CONTACT MAIN - END */
