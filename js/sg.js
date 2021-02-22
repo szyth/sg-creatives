@@ -304,6 +304,11 @@ $('#target').teletype({
     'everyone.'
   ]
 });
+$('#target-team').teletype({
+  text: [
+    
+  ]
+});
 
 $('#cursor').teletype({
   text: ['_', ' '],
