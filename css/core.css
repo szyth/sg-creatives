@@ -2,3 +2,13 @@
 
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Saira Extra Condensed', sans-serif; */
+@font-face {
+    font-family: azo_black;
+    src: url(../media/font/AzoSansBlack.otf);
+}
+
+/*Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0*/
+@font-face {
+    font-family: alleyn;
+    src: url(../media/font/AlleynW01Semibold.ttf);
+}

@@ -22,10 +22,8 @@
   <link rel="stylesheet" href="css/sg.css" />
 
 
-  <!-- Material Icons -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
-    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 </head>
 
@@ -80,45 +78,39 @@
 
 
     <div class="row">
-      <div class="col s12 m6" style="background-color: #f79a0e;padding: 7rem;height:auto;min-height: 120vh;">
+      <div id="contactForm" class="col s12 m6">
         <form>
-          <h2 class="center black-text">
-            <span class="half-color3">get in touch</span>
-          </h2>
-          <div class="row">
-            <div class="input-field col s12">
-              <i class="material-icons prefix">account_circle</i>
-              <input id="icon_prefix" type="text" class="validate">
-              <label for="icon_prefix">Name</label>
-            </div>
-            <div class="input-field col s12">
-              <i class="material-icons prefix">email</i>
-              <input id="email" type="text" class="validate">
-              <label for="email">Email</label>
-            </div>
-            <div class="input-field col s12">
-              <i class="material-icons prefix">message</i>
-              <input id="message" type="text" class="validate">
-              <label for="message">Message</label>
-            </div>
-          </div>
+          <h4 class="white-text">
+            Get in touch!
+          </h4>
+          <input placeholder="Enter your Name" id="name" type="text" class="validate">
+          <input placeholder="Enter a valid Email Address" id="email" type="text" class="validate">
+          <textarea class="materialize-textarea" placeholder="Enter your Message" id="message" type="text"
+            class="validate"></textarea>
+          <a id="submit" class="waves-effect waves-light btn-large z-depth-0">Submit</a>
         </form>
       </div>
-      <div class="col s12 m6" style="background-color: #cecece;height:auto;min-height: 120vh;">
-        <div class="row" style="margin: 50px 30px;background-color: #fff;transform: translateX(-22%);">
+      <div id="addressPanel" class="col s12 m6">
+        <div class="row">
           <div class="col s12 m5 center">
             <h3>Address</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <h3>Address</h3>
+            <h3>Call Us</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <h3>Address</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <h3>Social Links</h3>
+            <div class="center social-icon">
+              <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+            </div>
           </div>
-          <div class="col s12 m7" style="padding: 0 !important;margin:0">
+          <div id="map" class="col s12 m7">
             <div style="width: 100%"><iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0"
                 marginwidth="0"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=lucknow+(ScrapeGoat%20Creatives)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                href="https://www.maps.ie/route-planner.htm"></a></div>
+                href="https://www.maps.ie/route-planner.htm"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -126,41 +118,50 @@
 
   </section>
 
-  <footer style="background-color: black;">
-    <div class="row" style="margin-bottom: 0;">
-      <div class="col s12 m4 center">
-        <img class="img-resize" src="media/logo-final-white.png" />
+  <footer>
+    <div style="background-color: #ffffff;color:black;overflow: hidden;">
+      <h1 class="sg" style="transform: translateY(50%);">scrapegoat</h1>
+    </div>
+    <div style="background-color: rgb(0, 0, 0);color:#f79a0e;overflow: hidden;height: 30vh;">
+      <h1 class="sg center" style="transform: translateY(-50%);line-height: 0.7;">scrapegoat
+        <span style="font-family:alleyn;font-size: 5rem; color: white;letter-spacing:45px ;padding: 3px 0 3px 45px;"
+          class="center">CREATIVES</span>
+      </h1>
 
+    </div>
+
+    <!-- <img class="" style="width: 100%;" src="media/logo-final-white.png" /> -->
+
+    <div class="row center valign-wrapper">
+
+      <div class="col s12 m6">
+          <div class="center social-icon">
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+          </div>
       </div>
       <div class="col s12 m2">
-        <ul style="color: white;font-size: 1.2em;">
-          <li style="font-size: 1.4em;font-weight: 600;">Explore</li>
-          <li><a href="index.html">Home</a></li>
+        <ul>
+          <li class="footer-title">Explore</li>
           <li><a href="solutions.html">Services</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <li><a href="about.html">About Us</a></li>
         </ul>
       </div>
       <div class="col s12 m2">
-        <ul style="color: white;font-size: 1.2em;">
-          <li style="font-size: 1.4em;font-weight: 600;">Visit</li>
+        <ul>
+          <li class="footer-title">Visit</li>
           <li>544 ka 556/2</li>
           <li>Sardar Nagar, Balaganj</li>
           <li>Lucknow, India</li>
         </ul>
       </div>
       <div class="col s12 m2">
-        <ul style="color: white;font-size: 1.2em;">
-          <li style="font-size: 1.4em;font-weight: 600;">Follow</li>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
-          <li>Behance</li>
-        </ul>
-      </div>
-      <div class="col s12 m2">
         <ul style="color: white;">
-          <li style="font-size: 1.4em;font-weight: 600;">Legal</li>
+          <li class="footer-title">Legal</li>
           <li>Terms</li>
           <li>Privacy</li>
           <li>Credits</li>

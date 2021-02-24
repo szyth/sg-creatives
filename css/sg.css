@@ -720,4 +720,131 @@ footer li a {
 
 }
 
+#contactMain .row {
+  font-family: 'Poppins', sans-serif;
+}
+
+#contactMain #contactForm {
+  background-color: #1d1d1d;
+  padding: 7rem;
+  height: auto;
+  min-height: 120vh;
+}
+
+
+#contactMain input {
+  padding: 5px;
+}
+
+#contactMain textarea {
+  padding: 10px 5px;
+}
+
+#contactMain input,
+#contactMain textarea.materialize-textarea {
+  border: 1px solid #ffffff;
+  background-color: #fff;
+}
+
+#contactMain input:focus,
+#contactMain textarea.materialize-textarea:focus {
+  background-color: rgb(59, 59, 59);
+  border: 1px solid #000000;
+  color: rgb(255, 255, 255);
+}
+
+#submit.btn-large {
+  background-color: #f79a0e;
+  color: rgb(0, 0, 0);
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#submit.btn-large:hover {
+  background-color: rgb(241, 241, 241);
+  border: solid 1px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+#contactMain #addressPanel {
+  background-color: #cecece;
+  height: auto;
+  min-height: 120vh;
+}
+
+#contactMain #addressPanel .row {
+  margin: 50px 30px;
+  background-color: #fff;
+  transform: translateX(-18%);
+}
+
+#contactMain #addressPanel .row h3 {
+  font-size: 1.5rem;
+}
+
+#contactMain .social-icon i {
+  margin: 5px;
+  font-size: 1.9rem;
+  color: #444;
+}
+
+
+#contactMain #addressPanel #map {
+  padding: 0 !important;
+  margin: 0
+}
+
 /* CONTACT MAIN - END */
+
+/* FOOTER  */
+footer {
+  background-color: black;
+}
+
+footer .sg {
+  font-family: azo_black;
+  /* color: white; */
+  font-size: 10rem;
+  text-align: center;
+  /* transform: translateY(-80px); */
+}
+/* footer .social-icon{
+  margin: 25px;
+
+} */
+footer .social-icon a {
+  text-align: center !important;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  color: white;
+  margin: 20px;
+  width: 4rem;
+  height: auto;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+
+footer .social-icon i {
+  margin: 5px;
+  font-size: 3rem;
+  color: rgb(22, 22, 22);
+  text-align: center !important;
+}
+
+
+footer .row {
+  margin-bottom: 0;
+}
+
+footer ul {
+  color: white;
+  font-size: 1.2em;
+}
+
+footer ul li.footer-title {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+/* FOOTER - END */
